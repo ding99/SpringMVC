@@ -1,15 +1,14 @@
-# Start
-mvnw spring-boot:run
+## Start Service
+* mvnw spring-boot:run
 
-# HTTP GET request:
+## Test by HTTP GET request
 * http://localhost:8081/greeting
 * http://localhost:8081/greeting?name=Spring
 
-# Setting Port
-in application.properties
+### Setting Port
+File application.properties
 * server.port=8081
-
-
+-----------------
 # Getting Started
 
 ### Reference Documentation
